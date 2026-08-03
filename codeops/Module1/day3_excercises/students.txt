@@ -1,0 +1,5 @@
+Ribka,85
+Almaz,92
+Dawit,78
+Sara,88
+Kebede,95
