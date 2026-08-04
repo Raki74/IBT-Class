@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <a href="index.html">Home</a> | 
+            <a href="about.html">About</a> | 
+            <a href="education.html">Education & Skills</a> | 
+            <a href="projects.html">Projects</a> | 
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Contact Details</h2>
+            <p><strong>Email:</strong> rebkadav@gmail.com</p>
+            <p><strong>Phone:</strong> +251 969 75 91 98</p>
+            <p><strong>Location:</strong> Addis Ababa, Ethiopia</p>
+        </section>
+
+        <section>
+            <h2>Send Me a Message</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" required minlength="3" placeholder="Enter your full name">
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required placeholder="name@example.com">
+                </p>
+
+                <p>
+                    <label for="subject">Subject:</label><br>
+                    <select id="subject" name="subject">
+                        <option value="general">General Inquiry</option>
+                        <option value="collaboration">Project Collaboration</option>
+                        <option value="hiring">Job Opportunity</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40" required minlength="10" placeholder="Write your message here..."></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Send Message">
+                    <input type="reset" value="Clear Form">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Ribka Dawit. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
